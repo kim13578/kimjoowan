@@ -1,0 +1,516 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Kim jooWan - Portfolio</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+
+    <!-- Favicons -->
+    <link href="assets/img/지구.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+  </head>
+
+  <body class="index-page">
+    <header id="header" class="header d-flex align-items-center fixed-top">
+      <div
+        class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between"
+      >
+        <a href="index.html" class="logo d-flex align-items-center">
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <!-- <img src="assets/img/logo.png" alt=""> -->
+          <h1 class="sitename">Joowan</h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="#hero" class="active">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="service-details.html">Contact</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+      <!-- Hero Section -->
+      <section id="hero" class="hero section dark-background">
+        <img src="assets/img/배경.jpg" alt="" data-aos="fade-in" />
+
+        <div
+          class="container text-center"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <h2>Welcome</h2>
+              <p>Designer Kim JooWan</p>
+              <a href="#portfolio" class="btn-get-started">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Hero Section -->
+
+      <!-- Portfolio Section -->
+      <section id="portfolio" class="portfolio section">
+        <!-- Section Title -->
+        <div class="container section-title" data-aos="fade-up">
+          <h2>Portfolio</h2>
+        </div>
+        <!-- End Section Title -->
+
+        <div class="container">
+          <div
+            class="isotope-layout"
+            data-default-filter="*"
+            data-layout="masonry"
+            data-sort="original-order"
+          >
+            <ul
+              class="portfolio-filters isotope-filters"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">영상</li>
+              <li data-filter=".filter-product">상세페이지</li>
+              <li data-filter=".filter-branding">카드뉴스</li>
+              <li data-filter=".filter-books">UI UX</li>
+            </ul>
+            <!-- End Portfolio Filters -->
+
+            <div
+              class="row gy-4 isotope-container"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
+              >
+                <div class="portfolio-content h-100">
+                  <img
+                    src="assets/img/portfolio/뮤직컴플렉스 서울 홍보영상.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="portfolio-info">
+                    <h4>영상 1</h4>
+                    <p>뮤직컴플렉스서울 홍보영상</p>
+                    <a
+                      href="assets/img/portfolio/뮤직컴플렉스 서울 홍보영상.jpg"
+                      title="뮤직컴플렉스서울 홍보영상"
+                      data-gallery="portfolio-gallery-app"
+                      class="glightbox preview-link"
+                      ><i class="bi bi-zoom-in"></i
+                    ></a>
+                    <a
+                      href="portfolio-details.html"
+                      title="More Details"
+                      class="details-link"
+                      ><i class="bi bi-link-45deg"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- End Portfolio Item -->
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product"
+              >
+                <div class="portfolio-content h-100">
+                  <img
+                    src="assets/img/portfolio/서핑보드.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="portfolio-info">
+                    <h4>상세페이지 1</h4>
+                    <p>상세페이지</p>
+                    <a
+                      href="assets/img/portfolio/서핑보드.png"
+                      title="상세페이지"
+                      data-gallery="portfolio-gallery-product"
+                      class="glightbox preview-link"
+                      ><i class="bi bi-zoom-in"></i
+                    ></a>
+                    <a
+                      href="portfolio-details3.html"
+                      title="More Details"
+                      class="details-link"
+                      ><i class="bi bi-link-45deg"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding"
+              >
+                <div class="portfolio-content h-100">
+                  <img
+                    src="assets/img/portfolio/카드뉴스 1.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="portfolio-info">
+                    <h4>카드뉴스 1</h4>
+                    <p>카드뉴스</p>
+                    <a
+                      href="assets/img/portfolio/카드뉴스 1.png"
+                      title="카드뉴스"
+                      data-gallery="portfolio-gallery-branding"
+                      class="glightbox preview-link"
+                      ><i class="bi bi-zoom-in"></i
+                    ></a>
+                    <a
+                      href="portfolio-details4.html"
+                      title="More Details"
+                      class="details-link"
+                      ><i class="bi bi-link-45deg"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books"
+              >
+                <div class="portfolio-content h-100">
+                  <img
+                    src="assets/img/portfolio/첫번째.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="portfolio-info">
+                    <h4>ui ux 1</h4>
+                    <p>웹디자인</p>
+                    <a
+                      href="assets/img/portfolio/첫번째.png"
+                      title="웹 디자인"
+                      data-gallery="portfolio-gallery-book"
+                      class="glightbox preview-link"
+                      ><i class="bi bi-zoom-in"></i
+                    ></a>
+                    <a
+                      href="portfolio-details5.html"
+                      title="More Details"
+                      class="details-link"
+                      ><i class="bi bi-link-45deg"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
+              >
+                <div class="portfolio-content h-100">
+                  <img
+                    src="assets/img/portfolio/단편영화.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="portfolio-info">
+                    <h4>영상 2</h4>
+                    <p>단편영화</p>
+                    <a
+                      href="assets/img/portfolio/단편영화.jpg"
+                      title="단편영화"
+                      data-gallery="portfolio-gallery-app"
+                      class="glightbox preview-link"
+                      ><i class="bi bi-zoom-in"></i
+                    ></a>
+                    <a
+                      href="portfolio-details1.html"
+                      title="More Details"
+                      class="details-link"
+                      ><i class="bi bi-link-45deg"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <!-- End Portfolio Item -->
+
+              <!-- End Portfolio Item -->
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books"
+              >
+                <div class="portfolio-content h-100">
+                  <img
+                    src="assets/img/portfolio/나이키.png"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="portfolio-info">
+                    <h4>ui ux 2</h4>
+                    <p>모바일 디자인</p>
+                    <a
+                      href="assets/img/portfolio/나이키.png"
+                      title="모바일 디자인"
+                      data-gallery="portfolio-gallery-book"
+                      class="glightbox preview-link"
+                      ><i class="bi bi-zoom-in"></i
+                    ></a>
+                    <a
+                      href="portfolio-details6.html"
+                      title="More Details"
+                      class="details-link"
+                      ><i class="bi bi-link-45deg"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <!-- End Portfolio Item -->
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
+              >
+                <div class="portfolio-content h-100">
+                  <img
+                    src="assets/img/portfolio/데드풀.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="portfolio-info">
+                    <h4>영상 3</h4>
+                    <p>슬라이드쇼</p>
+                    <a
+                      href="assets/img/portfolio/데드풀.jpg"
+                      title="슬라이드쇼"
+                      data-gallery="portfolio-gallery-app"
+                      class="glightbox preview-link"
+                      ><i class="bi bi-zoom-in"></i
+                    ></a>
+                    <a
+                      href="portfolio-details2.html"
+                      title="More Details"
+                      class="details-link"
+                      ><i class="bi bi-link-45deg"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
+              >
+                <div class="portfolio-content h-100">
+                  <img
+                    src="assets/img/portfolio/스즈메 메인.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="portfolio-info">
+                    <h4>영상 4</h4>
+                    <p>영화 예고편</p>
+                    <a
+                      href="assets/img/portfolio/스즈메 메인.jpg"
+                      title="영화 예고편"
+                      data-gallery="portfolio-gallery-app"
+                      class="glightbox preview-link"
+                      ><i class="bi bi-zoom-in"></i
+                    ></a>
+                    <a
+                      href="portfolio-details7.html"
+                      title="More Details"
+                      class="details-link"
+                      ><i class="bi bi-link-45deg"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="row gy-4 isotope-container"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
+                <div
+                  class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app"
+                >
+                  <div class="portfolio-content h-100">
+                    <img
+                      src="assets/img/portfolio/자기소개.jpg"
+                      class="img-fluid"
+                      alt=""
+                    />
+                    <div class="portfolio-info">
+                      <h4>영상 5</h4>
+                      <p>타이포그래피 자기소개 영상</p>
+                      <a
+                        href="assets/img/portfolio/자기소개.jpg"
+                        title="타이포그래피 자기소개 영상"
+                        data-gallery="portfolio-gallery-app"
+                        class="glightbox preview-link"
+                        ><i class="bi bi-zoom-in"></i
+                      ></a>
+                      <a
+                        href="portfolio-details8.html"
+                        title="More Details"
+                        class="details-link"
+                        ><i class="bi bi-link-45deg"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              <!-- End Portfolio Item -->
+
+              <!-- End Portfolio Item -->
+
+              <!-- End Portfolio Item -->
+
+              <!-- End Portfolio Item -->
+            </div>
+            <!-- End Portfolio Container -->
+          </div>
+        </div>
+      </section>
+      <!-- /Portfolio Section -->
+
+
+
+<div class="container" data-aos="fade-up" data-aos-delay="100">
+  <div
+    class="container text-center"
+    data-aos="fade-up"
+    data-aos-delay="100"
+  >
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <a href="service-details.html" class="btn-contact">Contact</a>
+      </div>
+      
+    </div>
+  </div>
+  <div class="row mt-4 justify-content-center">
+    <div class="col-lg-4 col-sm-12"  data-aos="zoom-in" data-aos-delay="200">
+      <a href="service-details.html" class="stretched-link"></a>
+        <div class="row justify-content-center">
+         
+        </div>
+     
+      <br>
+        <div class="box bg-1">
+          <div>
+            
+            <img
+              src="assets/img/증명사진.jpg"
+              class="img-fluid"
+            />
+          </div>
+    </div>
+      <br>
+      
+    </div>
+</div>
+  
+      
+     
+      <!-- Featured Services Section -->
+       <!--<section id="featured-services" class="featured-services section">
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
+          <div class="row gy-4">
+            <div class="col-lg-12" data-aos="zoom-in" data-aos-delay="200">
+              <div class="service-item position-relative">
+                <div class="img">
+                  <img
+                    src="assets/img/증명사진.jpg"
+                    class="img-fluid"
+                    class="rounded d-block"
+                  />
+                </div>
+                <div class="details">
+                  <a href="service-details.html" class="stretched-link">
+                    <h3>Contact</h3>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      -->
+      <!-- /Featured Services Section -->
+    </main>
+
+    <footer id="footer" class="footer dark-background">
+      <div class="container">
+        <h3 class="sitename">Kim Joo Wan</h3>
+        <hr />
+        E.mail : qsx13578@naver.com
+        <hr />
+        PH. : 010-2318-9907
+        <hr />
+
+        <div class="social-links d-flex justify-content-center">
+          <a href="https://www.instagram.com/oh__wxn/" target="_blank"
+            ><i class="bi bi-instagram"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll Top -->
+    <a
+      href="#"
+      id="scroll-top"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
